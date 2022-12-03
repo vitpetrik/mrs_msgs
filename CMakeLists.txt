@@ -257,6 +257,10 @@ add_message_files(DIRECTORY msg/uvdar FILES
   ImagePointsWithFloatStamped.msg
   )
 
+add_message_files(DIRECTORY msg/uwbdar FILES 
+  RangeWithVar.msg
+)
+
 # sxd messages
 add_message_files(DIRECTORY msg/sxd FILES
   SxdMeasurement.msg
