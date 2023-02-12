@@ -259,6 +259,8 @@ add_message_files(DIRECTORY msg/uvdar FILES
 
 add_message_files(DIRECTORY msg/uwbdar FILES 
   RangeWithVar.msg
+  RangeWithCovarianceIdentified.msg
+  RangeWithCovarianceArrayStamped.msg
 )
 
 # sxd messages
