@@ -268,6 +268,8 @@ add_message_files(DIRECTORY msg/uwbdar FILES
   RangeWithVar.msg
   RangeWithCovarianceIdentified.msg
   RangeWithCovarianceArrayStamped.msg
+  NavSatFixIdentified.msg
+  NavSatFixArrayStamped.msg
 )
 
 # sxd messages
