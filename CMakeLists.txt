@@ -158,6 +158,12 @@ add_message_files(DIRECTORY msg/general FILES
   TrackArrayStamped.msg
   Track.msg
   TrackStamped.msg
+
+  RangeWithVar.msg
+  RangeWithCovarianceIdentified.msg
+  RangeWithCovarianceArrayStamped.msg
+  NavSatFixIdentified.msg
+  NavSatFixArrayStamped.msg
   )
 
 # general services
