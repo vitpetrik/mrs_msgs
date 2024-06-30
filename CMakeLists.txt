@@ -162,6 +162,9 @@ add_message_files(DIRECTORY msg/general FILES
   RangeWithVar.msg
   RangeWithCovarianceIdentified.msg
   RangeWithCovarianceArrayStamped.msg
+  Direction.msg
+  DirectionWithCovarianceIdentified.msg
+  DirectionWithCovarianceArrayStamped.msg
   NavSatFixIdentified.msg
   NavSatFixArrayStamped.msg
   )
